@@ -115,6 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Device.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppleFactory.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="DeviceFactory.h" />
+    <ClInclude Include="iPadAir2.h" />
+    <ClInclude Include="iPhoneX.h" />
+    <ClInclude Include="SamsungFactory.h" />
+    <ClInclude Include="SamsungGalaxyS9.h" />
+    <ClInclude Include="SamsungGalaxyTab2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
