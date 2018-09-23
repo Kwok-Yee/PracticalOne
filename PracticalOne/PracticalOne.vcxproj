@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CivilianTime.h" />
+    <ClInclude Include="CivilianTimeImplementation.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="TimeImplementation.h" />
+    <ClInclude Include="TwentyFourHourClockTime.h" />
+    <ClInclude Include="TwentyFourHourClockTimeImplementation.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{FC0A4C4C-442F-49D1-BF77-B7B96D3FA6BC}</ProjectGuid>
@@ -114,8 +125,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
